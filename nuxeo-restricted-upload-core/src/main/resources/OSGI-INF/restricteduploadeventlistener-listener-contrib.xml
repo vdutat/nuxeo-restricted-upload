@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.addons.listener.restricteduploadeventlistener">
+
+  <extension target="org.nuxeo.ecm.core.event.EventServiceComponent" point="listener">
+    <listener name="restricteduploadeventlistener"
+      class="org.nuxeo.addons.RestrictedUploadEventListener">
+        <event>aboutToCreate</event>
+        <event>beforeDocumentModification</event>
+    </listener>
+  </extension>
+
+</component>
