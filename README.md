@@ -1,6 +1,3 @@
-<<<<<<< 2442b4d994b80acbd5837012070d9642749e8f09
-# nuxeo-restricted-upload
-=======
 # nuxeo-restricted-upload
 
 **TODO**
